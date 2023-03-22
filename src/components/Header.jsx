@@ -1,6 +1,11 @@
-function Header({text}) {
+function Header({text , bgColor, txtColor}) {
+  const headerStyles = {
+    backgroundColor: bgColor,
+    color: txtColor,
+  }
+
   return (
-    <header>
+    <header style={headerStyles}>
       <div className="container">
         <h2>{text}</h2>
       </div>
@@ -11,6 +16,8 @@ function Header({text}) {
 
 Header.defaultProps = {
   text: 'Feedback Shit',
+  bgColor: 'rgba(0,0,0,0.4)',
+  txtColor: '#ff6a95'
 }
 
 export default Header

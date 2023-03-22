@@ -1,10 +1,11 @@
 import Header from "./components/Header"
+import FeedbackItem from "./components/FeedbackItem"
 
 function App() {
     return (
         <>
        <Header />
-        <h1>hello pussy</h1>
+        <FeedbackItem/>
         </>
         
     ) 
