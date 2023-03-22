@@ -3,7 +3,7 @@ import Header from "./components/Header"
 function App() {
     return (
         <>
-       <Header/>
+       <Header />
         <h1>hello pussy</h1>
         </>
         
