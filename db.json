@@ -11,7 +11,7 @@
       "text": "This is feedback item 2 coming from the backend"
     },
     {
-      "rating": "2",
+      "rating": 2,
       "text": "go fuck yourself nigga",
       "id": 5
     }
